@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20"
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 20
+        versionCode 200
+        versionName '2.0-BETA'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+    compile project(':indicator-library')
+    compile project(':Smartlink')
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rssi high</key>
+	<integer>-5</integer>
+	<key>rssi low</key>
+	<integer>-55</integer>
+	<key>Services</key>
+	<dict>
+		<key>sml1test</key>
+		<dict>
+			<key>UUID</key>
+			<string>75b64e51-f181-4ed1-921a-476090d80ba7</string>
+			<key>Primary</key>
+			<true/>
+			<key>DriverClass</key>
+			<string>BLESmartplaneService</string>
+			<key>Fields</key>
+			<dict>
+				<key>engine</key>
+				<string>75b64e51-f184-4ed1-921a-476090d80ba7</string>
+				<key>rudder</key>
+				<string>75b64e51-f185-4ed1-921a-476090d80ba7</string>
+			</dict>
+		</dict>
+		<key>battery</key>
+		<dict>
+			<key>UUID</key>
+			<string>180f</string>
+			<key>DriverClass</key>
+			<string>BLEBatteryService</string>
+			<key>Fields</key>
+			<dict>
+				<key>level</key>
+				<string>2a19</string>
+			</dict>
+		</dict>
+		<key>devinfo</key>
+		<dict>
+			<key>UUID</key>
+			<string>180a</string>
+			<key>DriverClass</key>
+			<string>BLEDeviceInformationService</string>
+			<key>Fields</key>
+			<dict>
+				<key>serialnumber</key>
+				<string>2a25</string>
+			</dict>
+		</dict>
+		<key>powerup</key>
+		<dict>
+			<key>UUID</key>
+			<string>86C3810E-F171-40D9-A117-26B300768CD6</string>
+			<key>Primary</key>
+			<true/>
+			<key>DriverClass</key>
+			<string>BLESmartplaneService</string>
+			<key>Fields</key>
+			<dict>
+				<key>engine</key>
+				<string>86C3810E-0010-40D9-A117-26B300768CD6</string>
+				<key>rudder</key>
+				<string>86C3810E-0021-40D9-A117-26B300768CD6</string>
+				<key>chargestatus</key>
+				<string>86C3810E-0040-40D9-A117-26B300768CD6</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
